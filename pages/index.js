@@ -53,7 +53,7 @@ export default function Home() {
     <div className="text-center text-2xl ml-6 mr-6 p-6">
       <h1>My Radio Player</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20  ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  ">
         {channels.map((channel) => {
           return (
             <Channel
