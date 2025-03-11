@@ -50,10 +50,10 @@ export default function Home() {
   }
 
   return (
-    <div className="text-center text-2xl p-4 m-4">
+    <div className="text-center text-2xl ml-6 mr-6 p-6">
       <h1>My Radio Player</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 px-6 p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20  ">
         {channels.map((channel) => {
           return (
             <Channel
